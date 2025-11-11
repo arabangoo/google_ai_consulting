@@ -1,6 +1,9 @@
 ### [arabangoo.com]
 https://arabangoo.com/
 <br/><br/>
+### [GCP 생성형 AI 고객 사례]   
+https://cloud.google.com/ai/generative-ai/stories?hl=ko
+<br/><br/>
 ### [AI Model & API Providers Analysis]   
 https://artificialanalysis.ai/
 <br/><br/>
@@ -11,19 +14,4 @@ https://llmpricecheck.com/
 https://roadmap.sh/ai-engineer 
 <br/><br/>
 ### [Generative AI Handbook]
-https://genai-handbook.github.io/   
-<br/>
-### [MIT Deep Learning]   
-https://udlbook.github.io/udlbook/      
-<br/>
-### [Stanford HAI AI Index]
-https://hai.stanford.edu/ai-index
-<br/><br/>
-### [Humanity's Last Exam]
-https://agi.safe.ai/
-<br/><br/>
-### [AI latest Research Papers]
-https://arxiv.org/list/cs.AI/recent
-<br/><br/>
-### [Connected Papers]
-https://www.connectedpapers.com/
+https://genai-handbook.github.io/     
