@@ -12,7 +12,7 @@ from vertexai.generative_models import GenerativeModel
 # --- 설정 (Cloud Function 환경 변수에서 값을 읽어옴) ---
 SLACK_BOT_TOKEN = os.environ.get("SLACK_BOT_TOKEN")
 SLACK_SIGNING_SECRET = os.environ.get("SLACK_SIGNING_SECRET")
-MODEL_ID = os.environ.get("MODEL_ID", "gemini-1.5-pro-latest")
+MODEL_ID = os.environ.get("MODEL_ID", "gemini-2.5-flash")
 
 # GCP 환경 초기화
 vertexai.init() 
@@ -214,3 +214,4 @@ def slack_events_handler(request):
             threading.Thread(target=process_slack_event, args=(event,)).start()
 
     return "OK", 200
+
