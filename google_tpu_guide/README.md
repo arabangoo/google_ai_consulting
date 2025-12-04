@@ -1036,7 +1036,7 @@ Pallas는 TPU의 메모리와 연산 파이프라인을 직접 제어할 수 있
 └─────────────────────────────────────┘
               ↕ DMA Transfer
 ┌─────────────────────────────────────┐
-│    VMEM (Vector Memory) - On-chip  │  ← 벡터 연산용 (빠름)
+│    VMEM (Vector Memory) - On-chip   │  ← 벡터 연산용 (빠름)
 └─────────────────────────────────────┘
               ↕
 ┌─────────────────────────────────────┐
@@ -1867,5 +1867,6 @@ xmp.spawn(train_fn, nprocs=8)  # 8개 코어 사용
 - [JAX GitHub Discussions](https://github.com/google/jax/discussions)
 - [PyTorch/XLA GitHub](https://github.com/pytorch/xla)
 - [TensorFlow Forum](https://discuss.tensorflow.org/)
+
 
 
